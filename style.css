@@ -4,10 +4,12 @@
 
 .background-container{
     background-color: darkgrey;
-   justify-content: center;
+    justify-content: space-around;
     display:flex;
     flex-wrap: wrap;
     background-size: cover;
+    /* align-content: center;
+    flex-direction: column; */
 
     
 }
@@ -30,6 +32,8 @@
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    height: 350px;
+    width: 400px;
     
 }
 .card-heading{
@@ -58,4 +62,8 @@
     justify-content: center;
     flex-direction: column;
 }
-
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(0, 191, 255);
+    }
+  } */
